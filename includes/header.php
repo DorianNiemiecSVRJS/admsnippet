@@ -10,15 +10,15 @@
     <meta name="description" content="<?php echo htmlspecialchars((isset($page_description) && $page_description) ? $page_description : "AdmSnippet is a database of user-submitted server administration scripts and configuration files, which allows server administrators to easily find scripts for their server administration needs.") ?>">
     <meta name="og:title" content=" <?php echo htmlspecialchars((isset($page_title) && $page_title) ? "$page_title - AdmSnippet" : "AdmSnippet") ?>">
     <meta name="og:description" content="<?php echo htmlspecialchars((isset($page_description) && $page_description) ? $page_description : "AdmSnippet is a database of user-submitted server administration scripts and configuration files, which allows server administrators to easily find scripts for their server administration needs.") ?>">
-    <meta name="og:url" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : (isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SEVRER_ADDR'] : 'localhost')) . $_SERVER['REQUEST_URI']); ?>">
-    <meta name="og:image" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : (isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SEVRER_ADDR'] : 'localhost')) . APP_ROOT . 'img/cover.png'); ?>">
+    <meta name="og:url" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : (isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SERVER_ADDR'] : 'localhost')) . $_SERVER['REQUEST_URI']); ?>">
+    <meta name="og:image" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : (isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SERVER_ADDR'] : 'localhost')) . APP_ROOT . 'img/cover.png'); ?>">
     <meta name="og:image:width" content="1920">
     <meta name="og:image:height" content="1080">
     <meta name="og:image:alt" content="<?php echo htmlspecialchars((isset($page_title) && $page_title) ? "$page_title - AdmSnippet" : "AdmSnippet") ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content=" <?php echo htmlspecialchars((isset($page_title) && $page_title) ? "$page_title - AdmSnippet" : "AdmSnippet") ?>">
     <meta name="twitter:description" content="<?php echo htmlspecialchars((isset($page_description) && $page_description) ? $page_description : "AdmSnippet is a database of user-submitted server administration scripts and configuration files, which allows server administrators to easily find scripts for their server administration needs.") ?>">
-    <meta name="twitter:image" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : (isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SEVRER_ADDR'] : 'localhost')) . APP_ROOT . 'img/cover.png'); ?>">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : (isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SERVER_ADDR'] : 'localhost')) . APP_ROOT . 'img/cover.png'); ?>">
     <script src="<?php echo htmlspecialchars(APP_ROOT . 'js/analytics.js'); ?>"></script>
 </head>
 <body>

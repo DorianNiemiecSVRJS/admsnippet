@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /changepassword.php
+Disallow: /config.php
+Disallow: /delete.php
+Disallow: /deletemyaccount.php
+Disallow: /edit.php
+Disallow: /includes/
+Disallow: /login.php
+Disallow: /logout.php
+Disallow: /register.php
+Disallow: /search.php
+Disallow: /submit.php
+Disallow: /vote.php

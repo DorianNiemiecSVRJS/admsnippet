@@ -1,0 +1,568 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+}
+
+a {
+    color: blue;
+}
+
+pre {
+    font-family: monospace;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    padding: 0 0.75em;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+    font-size: 1.25em;
+}
+
+header .container {
+    display: table;
+    table-layout: fixed;
+}
+
+header .header-sitename {
+   font-size: 1.5em;
+   font-weight: bold;
+   display: table-cell;
+   text-align: left;
+   vertical-align: middle;
+   width: 45%;
+}
+
+header .header-sitename a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 55%;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0.3em 0;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav li form {
+    display: inline;
+}
+
+header nav li form input {
+    background: none;
+    color: white;
+    font-size: 1em;
+    border: none;
+    font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+section.hero {
+    font-size: 1.75em;
+    padding: 1.75em 1em;
+    background-color: blue;
+    color: white;
+    margin-bottom: 1em;
+}
+
+section.hero h1 {
+    font-size: 1.75em;
+}
+
+form.search-form {
+    display: table;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+}
+
+main.page form.search-form {
+    font-size: 0.8em;
+}
+
+form.search-form input.search-input,
+form.search-form input.search-button {
+    display: table-cell;
+    box-sizing: border-box;
+    border: 1px blue solid;
+    font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 0.3em;
+}
+
+form.search-form input.search-input {
+    width: 80%;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+}
+
+form.search-form input.search-button {
+    width: 20%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.topsnippets-heading {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 0.25em;
+}
+
+main.page .topsnippets-heading {
+    font-size: 1.8em;
+}
+
+.entries-outside {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+    display: table;
+}
+
+.entries-inside {
+    width: 100%;
+    display: table;
+}
+
+.entry-outside {
+    display: table-row;
+}
+
+.entry-votes form .entry-vote-button.entry-vote-active {
+    color: blue;
+}
+
+.entry-votes {
+    font-size: 1.25em;
+    padding: 0.2em 0.5em;
+}
+
+main.page .entry-votes {
+    font-size: 1em;
+}
+
+main.page .entries-inside .entry-votes {
+    font-size: 1.25em;
+    width: 9%;
+}
+
+.entry-outside .entry-votes {
+    display: table-cell;
+    vertical-align: top;
+    min-width: 1.5em;
+    box-sizing: border-box;
+}
+
+.entry-votes form,
+.entry-votes {
+    text-align: center;
+}
+
+.entry-votes form {
+    display: block;
+}
+
+.entry-votes form .entry-vote-button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    cursor: pointer;
+    color: black;
+}
+
+.entry-body {
+    padding: 0.5em 0;
+}
+
+.entries-outside .entry-outside .entry-body {
+    display: table-cell;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+main.page .entries-outside .entry-outside .entry-body {
+    font-size: 1em;
+}
+
+.entry-body h3 {
+    font-size: 1.35em;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.entry-body p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.entry-body h1 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.entry-action {
+    float: right;
+    margin-left: 0.5em;
+}
+
+.entry-action .button {
+    border: 1px blue solid;
+}
+
+pre.entry-contents {
+    margin-top: 0;
+    font-size: 1.1em;
+    background-color: white;
+    padding: 0.5em;
+    border: 1px solid blue;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 1.25em;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0.25em 0;
+}
+
+main.page {
+    font-size: 1.25em;
+}
+
+main.page form.form-visible {
+    margin: 1em 0;
+}
+
+main.page form.form-visible .form-element,
+main.page form.form-visible .form-captcha {
+    margin: 0.5em 0;
+}
+
+.form-captcha label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-error {
+    font-weight: bold;
+    color: red;
+}
+
+input, select, textarea {
+    background-color: white;
+    color: black;
+}
+
+main.page form.form-visible input,
+main.page form.form-visible textarea,
+main.page form.form-visible select,
+main.page form.form-shorthand input,
+main.page form.form-shorthand textarea,
+main.page form.form-shorthand select {
+    border: 1px blue solid;
+    font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 0.3em;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+main.page form.form-visible textarea,
+main.page form.form-visible .form-full input,
+main.page form.form-visible .form-full label,
+main.page form.form-visible .form-full textarea,
+main.page form.form-visible .form-full select {
+    display: block;
+    width: 100%;
+}
+
+main.page form.form-visible textarea.form-code-textbox {
+    font-family: monospace;
+    font-size: 1.1em;
+    height: 500px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
+    font-family: inherit;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    cursor: pointer;
+}
+
+.button-row form {
+    display: inline-block;
+}
+
+.button-row form .button {
+    border: 0;
+    margin-right: 0;
+}
+
+.button-row .button,
+.button-row form {
+    margin-right: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.button-row button:last-child,
+.button-row form:last-child {
+    margin-right: 0;
+}
+
+.pagination {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.pagination span,
+.pagination a {
+    display: inline-block;
+    margin: 0.25em;
+}
+
+ul.categories {
+    padding: 0;
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+ul.categories li {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 0.25em 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+ul.categories li:last-child {
+    margin-right: 0;
+}
+
+ul.categories li a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr th {
+    background-color: blue;
+    color: white;
+}
+
+table tr th a {
+    color: white;
+    text-decoration: underline;
+}
+
+table tr td {
+    background-color: white;
+}
+
+table tr td,
+table tr th {
+    padding: 0.2em;
+}
+
+table tr td.table-cell-left,
+table tr th.table-cell-left {
+    text-align: left;
+}
+
+table tr td.table-cell-center,
+table tr th.table-cell-center {
+    text-align: center;
+}
+
+table tr td.table-cell-right,
+table tr th.table-cell-right {
+    text-align: right;
+}
+
+@media screen and (max-width: 1024px) {
+    section.hero {
+        font-size: 1.5em;
+        padding: 1.5em 1em;
+    }
+
+    main.page {
+        font-size: 1.125em;
+    }
+
+    main.page form.search-form {
+        font-size: 0.8888em;
+    }
+
+    .entry-body h1 {
+        font-size: 1.75em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.hero {
+        font-size: 1.25em;
+        padding: 1.25em 0.5em;
+    }
+
+    form.search-form input.search-input,
+    form.search-form input.search-button {
+        font-size: 1em;
+        padding: 0.3em;
+    }
+
+    .topsnippets-heading {
+        font-size: 1.75em;
+    }
+
+    header {
+        font-size: 1em;
+    }
+
+    header nav li {
+        margin-left: 0.5em;
+    }
+
+    header nav li:first-child {
+        margin-left: 0;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    .entry-votes {
+        font-size: 1em;
+    }
+
+    .entries-outside .entry-outside .entry-body {
+        font-size: 1em;
+    }
+
+    main.page {
+        font-size: 1em;
+    }
+
+    main.page form.search-form {
+        font-size: 1em;
+    }
+
+    .entry-body h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .header-sitename {
+        font-size: 1.25em;
+    }
+
+    form.search-form input.search-input {
+        width: 66.6666%;
+    }
+    
+    form.search-form input.search-button {
+        width: 33.3333%;
+    }
+
+    main.page form.form-visible .form-element label,
+    main.page form.form-visible .form-element input,
+    main.page form.form-visible .form-element textarea,
+    main.page form.form-visible .form-element select,
+    main.page form.form-visible .form-captcha label,
+    main.page form.form-visible .form-captcha input {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    header .header-sitename {
+        width: 50%;
+    }
+    
+    header nav {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header {
+        display: block;
+    }
+
+    header .header-sitename {
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+    
+    header nav {
+        font-size: 0.9em;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+}

@@ -1,0 +1,7 @@
+To install AdmSnippet, first copy the files to a web host.
+After copying files to a web host, import the data into a database from "init.sql" file.
+After importing the data, copy "config.example.php" file to "config.php", and modify the configuration. Properties are explained in code comments.
+The default credentials are:
+ - Username: "admin"
+ - Password: "admin"
+After installing AdmSnippet, it's strongly recommended to change the default credentials.

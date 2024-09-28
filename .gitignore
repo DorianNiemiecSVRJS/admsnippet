@@ -1,0 +1,5 @@
+#phpMyAdmin
+phpmyadmin/
+
+#AdmSnippet configuration
+/config.php

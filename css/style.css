@@ -260,7 +260,7 @@ pre.entry-contents {
 pre.entry-contents code {
     display: block !important;
     font-size: 1.1em !important;
-    background-color: white;
+    background: white;
     padding: 0.5em !important;
     border: 1px solid blue;
     overflow-x: auto !important;

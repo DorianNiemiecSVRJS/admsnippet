@@ -19,6 +19,8 @@ pre, code {
     width: 100%;
     margin: auto;
     padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -120,6 +122,8 @@ main.page form.search-form {
 form.search-form input.search-input,
 form.search-form input.search-button {
     display: table-cell;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px #0000ff solid;
     font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
@@ -130,6 +134,8 @@ form.search-form input.search-button {
 
 form.search-form input.search-input {
     width: 80%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #ffffff;
     color: #000000;
@@ -190,6 +196,8 @@ main.page .entries-inside .entry-votes {
     display: table-cell;
     vertical-align: top;
     min-width: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -323,6 +331,8 @@ main.page form.form-shorthand select {
     font-size: 1em;
     padding: 0.3em;
     max-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 

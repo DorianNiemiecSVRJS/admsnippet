@@ -252,10 +252,13 @@ main.page .entries-outside .entry-outside .entry-body {
     border: 1px blue solid;
 }
 
+pre.entry-contents {
+    margin-top: 0;
+}
+
 /* Some "!important" directives were added to avoid override by Highlight.js theme */
 pre.entry-contents code {
     display: block !important;
-    margin-top: 0;
     font-size: 1.1em !important;
     background-color: white;
     padding: 0.5em !important;

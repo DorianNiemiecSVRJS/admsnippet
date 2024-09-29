@@ -19,6 +19,7 @@
     <meta name="twitter:title" content=" <?php echo htmlspecialchars((isset($page_title) && $page_title) ? "$page_title - AdmSnippet" : "AdmSnippet") ?>">
     <meta name="twitter:description" content="<?php echo htmlspecialchars((isset($page_description) && $page_description) ? $page_description : "AdmSnippet is a database of user-submitted server administration scripts and configuration files, which allows server administrators to easily find scripts for their server administration needs.") ?>">
     <meta name="twitter:image" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : (isset($_SERVER['SERVER_ADDR']) ? $_SERVER['SERVER_ADDR'] : 'localhost')) . APP_ROOT . 'img/cover.png'); ?>">
+    <!--[if lt IE 9]><script src="<?php echo htmlspecialchars(APP_ROOT . 'js/html5shiv.js'); ?>"></script><![endif]-->
     <script src="<?php echo htmlspecialchars(APP_ROOT . 'js/analytics.js'); ?>"></script>
     <?php
       if ($highlight_code) {

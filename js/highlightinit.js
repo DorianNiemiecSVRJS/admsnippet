@@ -1,0 +1,1 @@
+hljs.highlightElement(document.getElementById("snippet"));

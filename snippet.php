@@ -2,6 +2,7 @@
 <?php include("config.php"); ?>
 <?php include("includes/setup.php"); ?>
 <?php
+  $highlight_code = true;
   $snippetid = 0;
   $badrequest = false;
   $queryerror = false;
@@ -117,7 +118,7 @@
   </div>
 </div>
 </div>
-<pre class="entry-contents">' . htmlspecialchars($result['snippet']) . '</pre>';
+<pre class="entry-contents" id="snippet">' . htmlspecialchars($result['snippet']) . '</pre>';
   }
 ?>
   </div>

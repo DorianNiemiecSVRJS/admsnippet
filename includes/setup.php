@@ -45,4 +45,6 @@
   if ($user == -1) {
     unset($_SESSION['user']);
   }
+
+  $highlight_code = false;
 ?>

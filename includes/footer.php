@@ -16,5 +16,11 @@
     </footer>
     <script src="<?php echo htmlspecialchars(APP_ROOT); ?>js/cookieconsent.min.js"></script>
     <script src="<?php echo htmlspecialchars(APP_ROOT); ?>js/cookieconsentinit.js"></script>
+    <?php
+      if ($highlight_code) {
+        echo '<script src="' . htmlspecialchars(APP_ROOT . 'js/highlightinit.js') . '"></script>';
+        echo '';
+      }
+    ?>
 </body>
 </html>

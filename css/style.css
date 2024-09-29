@@ -2,12 +2,12 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
-    background-color: whitesmoke;
-    color: black;
+    background-color: #f5f5f5;
+    color: #000000;
 }
 
 a {
-    color: blue;
+    color: #0000ff;
 }
 
 pre, code {
@@ -23,8 +23,8 @@ pre, code {
 }
 
 header {
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     padding: 10px 0;
     font-size: 1.25em;
 }
@@ -44,7 +44,7 @@ header .header-sitename {
 }
 
 header .header-sitename a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ header nav li:first-child {
 }
 
 header nav li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ header nav li form {
 
 header nav li form input {
     background: none;
-    color: white;
+    color: #ffffff;
     font-size: 1em;
     border: none;
     font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
@@ -96,8 +96,8 @@ header nav li form input {
 section.hero {
     font-size: 1.75em;
     padding: 1.75em 1em;
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     margin-bottom: 1em;
 }
 
@@ -121,7 +121,7 @@ form.search-form input.search-input,
 form.search-form input.search-button {
     display: table-cell;
     box-sizing: border-box;
-    border: 1px blue solid;
+    border: 1px #0000ff solid;
     font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
     font-family: inherit;
     font-size: 1.2em;
@@ -131,14 +131,14 @@ form.search-form input.search-button {
 form.search-form input.search-input {
     width: 80%;
     box-sizing: border-box;
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 form.search-form input.search-button {
     width: 20%;
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -169,7 +169,7 @@ main.page .topsnippets-heading {
 }
 
 .entry-votes form .entry-vote-button.entry-vote-active {
-    color: blue;
+    color: #0000ff;
 }
 
 .entry-votes {
@@ -209,7 +209,7 @@ main.page .entries-inside .entry-votes {
     padding: 0;
     font-size: inherit;
     cursor: pointer;
-    color: black;
+    color: #000000;
 }
 
 .entry-body {
@@ -249,33 +249,33 @@ main.page .entries-outside .entry-outside .entry-body {
 }
 
 .entry-action .button {
-    border: 1px blue solid;
+    border: 1px #0000ff solid;
 }
 
 pre.entry-contents {
     margin-top: 0;
+    background: #ffffff;
 }
 
 /* Some "!important" directives were added to avoid override by Highlight.js theme */
 pre.entry-contents code {
     display: block !important;
     font-size: 1.1em !important;
-    background: white;
     padding: 0.5em !important;
-    border: 1px solid blue;
+    border: 1px solid #0000ff;
     overflow-x: auto !important;
 }
 
 footer {
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     text-align: center;
     padding: 2em 0;
     font-size: 1.25em;
 }
 
 footer a {
-    color: white;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -303,12 +303,12 @@ main.page form.form-visible .form-captcha {
 
 .form-error {
     font-weight: bold;
-    color: red;
+    color: #0000ff;
 }
 
 input, select, textarea {
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 main.page form.form-visible input,
@@ -317,7 +317,7 @@ main.page form.form-visible select,
 main.page form.form-shorthand input,
 main.page form.form-shorthand textarea,
 main.page form.form-shorthand select {
-    border: 1px blue solid;
+    border: 1px #0000ff solid;
     font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
     font-family: inherit;
     font-size: 1em;
@@ -343,8 +343,8 @@ main.page form.form-visible textarea.form-code-textbox {
 
 .button {
     text-decoration: none;
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     font-size: 1em;
     font-family: Ubuntu, "Segoe UI", Helvetica, sans-serif;
     font-family: inherit;
@@ -393,8 +393,8 @@ ul.categories {
 
 ul.categories li {
     display: inline-block;
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
     padding: 0.25em 0.5em;
     margin-right: 0.5em;
     margin-bottom: 0.25em;
@@ -405,7 +405,7 @@ ul.categories li:last-child {
 }
 
 ul.categories li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -415,17 +415,17 @@ table {
 }
 
 table tr th {
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
 }
 
 table tr th a {
-    color: white;
+    color: #ffffff;
     text-decoration: underline;
 }
 
 table tr td {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 table tr td,
@@ -446,6 +446,47 @@ table tr th.table-cell-center {
 table tr td.table-cell-right,
 table tr th.table-cell-right {
     text-align: right;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #1f1f1f;
+        color: #ffffff;
+    }
+
+    a {
+        color: #7f7fff;
+    }
+
+    form.search-form input.search-input {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    .entry-votes form .entry-vote-button.entry-vote-active {
+        color: #7f7fff;
+    }
+    
+    .entry-votes form .entry-vote-button {
+        color: #ffffff;
+    }
+    
+    pre.entry-contents {
+        background: #000000;
+    }
+    
+    .form-error {
+        color: #ff5050;
+    }
+    
+    input, select, textarea {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    table tr td {
+        background-color: #000000;
+    }
 }
 
 @media screen and (max-width: 1024px) {

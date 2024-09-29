@@ -101,7 +101,7 @@
 <h2>10. Your Data Protection Rights Under General Data Protection Regulation (GDPR)</h2>
 <p>If you are a resident of the European Union (EU) and European Economic Area (EEA), you have certain data protection rights, covered by GDPR.</p>
 <p>We aim to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data.</p>
-<p>If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please email us at <b>niemiecdorian2008.backup@gmail.com</b>.</p>
+<p>If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please email us at <b>niemiecdorian2008[dot]backup[at]gmail[dot]com</b>.</p>
 <p>In certain circumstances, you have the following data protection rights:</p>
 <ol>
   <li>the right to access, update or to delete the information we have on you;</li>
@@ -121,7 +121,7 @@
   <li>users can visit our site anonymously;</li>
   <li>our Privacy Policy link includes the word “Privacy”, and can easily be found on the home page of our website;</li>
   <li>users will be notified of any privacy policy changes on our Privacy Policy Page;</li>
-  <li>users are able to change their personal information by emailing us at <b>niemiecdorian2008.backup@gmail.com</b>.</li>
+  <li>users are able to change their personal information by emailing us at <b>niemiecdorian2008[dot]backup[at]gmail[dot]com</b>.</li>
 </ol>
 
 <h2>12. Your Data Protection Rights Under the California Consumer Privacy Act (CCPA)</h2>
@@ -143,7 +143,7 @@
 </ol>
 <p>If you submit a request to stop selling your personal information, we will stop making such transfers.</p>
 <p>Please note, if you ask us to delete or stop selling your data, it may impact your experience with us, and you may not be able to participate in certain programs or membership services which require the usage of your personal information to function. But in no circumstances, we will discriminate against you for exercising your rights.</p>
-<p>To exercise your California data protection rights described above, please send your request(s) by email: <b>niemiecdorian2008.backup@gmail.com</b>.</p>
+<p>To exercise your California data protection rights described above, please send your request(s) by email: <b>niemiecdorian2008[dot]backup[at]gmail[dot]com</b>.</p>
 <p>Your data protection rights, described above, are covered by the CCPA, short for the California Consumer Privacy Act. To find out more, visit the official California Legislative Information website. The CCPA took effect on 01/01/2020.</p>
 
 <h2>13. Service Providers</h2>
@@ -167,7 +167,7 @@
 <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
 <h2>18. Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact us by email: <b>niemiecdorian2008.backup@gmail.com</b>.</p>
+<p>If you have any questions about this Privacy Policy, please contact us by email: <b>niemiecdorian2008[dot]backup[at]gmail[dot]com</b>.</p>
 
   </div>
 </main>

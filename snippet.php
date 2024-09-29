@@ -118,7 +118,7 @@
   </div>
 </div>
 </div>
-<pre class="entry-contents" id="snippet">' . htmlspecialchars($result['snippet']) . '</pre>';
+<pre class="entry-contents"><code id="snippet">' . htmlspecialchars($result['snippet']) . '</code></pre>';
   }
 ?>
   </div>

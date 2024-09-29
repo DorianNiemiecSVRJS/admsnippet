@@ -31,6 +31,7 @@
 <body>
     <header>
         <div class="container">
+          <div class="header-container">
             <span class="header-sitename"><a href="/">AdmSnippet</a></span>
             <nav>
                <ul>
@@ -51,5 +52,6 @@
                     ?>
                </ul>
             </nav>
+          </div>
         </div>
     </header>

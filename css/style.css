@@ -31,7 +31,7 @@ header {
     font-size: 1.25em;
 }
 
-header .container {
+header .header-container {
     display: table;
     table-layout: fixed;
 }
@@ -130,6 +130,7 @@ form.search-form input.search-button {
     font-family: inherit;
     font-size: 1.2em;
     padding: 0.3em;
+    margin: 0;
 }
 
 form.search-form input.search-input {

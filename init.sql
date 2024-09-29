@@ -142,7 +142,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `snippets`
 --
 ALTER TABLE `snippets`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `users`

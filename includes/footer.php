@@ -19,7 +19,6 @@
     <?php
       if ($highlight_code) {
         echo '<script src="' . htmlspecialchars(APP_ROOT . 'js/highlightinit.js') . '"></script>';
-        echo '';
       }
     ?>
 </body>

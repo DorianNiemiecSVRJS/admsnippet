@@ -71,17 +71,17 @@
                     include("includes/finalize.php");
                     exit;
                 } else {
-                    $error_message = 'An error has occurred during the registration.';
+                    $error_message = 'An error has occurred during the registration, possibly due to username being already registered or internal server error.';
                 }
               } else {
-                $error_message = 'An error has occurred during the registration.';
+                $error_message = 'An error has occurred during the registration, possibly due to username being already registered or internal server error.';
               }
             } else {
               // Prevent user enumeration
-              $error_message = 'An error has occurred during the registration.';
+              $error_message = 'An error has occurred during the registration, possibly due to username being already registered or internal server error.';
             }
           } else {
-            $error_message = 'An error has occurred during the registration.';
+            $error_message = 'An error has occurred during the registration, possibly due to username being already registered or internal server error.';
           }
         } else {
           // Change the CAPTCHA question

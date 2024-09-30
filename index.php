@@ -4,12 +4,12 @@
 <?php include("includes/header.php"); ?>
 <section class="hero">
   <div class="container">
+    <!-- Remove the <div> below after launching AdmSnippet on product discovery platforms -->
+    <div class="hero-launches">
+      <a href="https://www.producthunt.com/posts/admsnippet?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-admsnippet" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=492792&theme=light" alt="AdmSnippet - a&#0032;database&#0032;of&#0032;user&#0045;submitted&#0032;server&#0032;administration&#0032;scripts | Product Hunt" width="250" height="54" /></a>
+    </div>
     <h1>Find server administration scripts and configurations</h1>
     <p>AdmSnippet is a database of user-submitted server administration scripts and configuratin files, which allows server administrators to easily find scripts for their server administration needs.</p>
-    <!-- Remove the paragraph below after launching AdmSnippet on product discovery platforms -->
-    <p class="hero-launches">
-      <a href="https://www.producthunt.com/posts/admsnippet?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-admsnippet" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=492792&theme=light" alt="AdmSnippet - a&#0032;database&#0032;of&#0032;user&#0045;submitted&#0032;server&#0032;administration&#0032;scripts | Product Hunt" width="250" height="54" /></a>
-    </p>
   </div>
 </section>
 <main>

@@ -95,6 +95,7 @@ header nav li form input {
     cursor: pointer;
     margin: 0;
     padding: 0;
+    vertical-align: middle;
 }
 
 section.hero {

@@ -43,7 +43,7 @@ header .header-sitename {
    display: table-cell;
    text-align: left;
    vertical-align: middle;
-   width: 45%;
+   width: 38%;
 }
 
 header .header-sitename a {
@@ -55,7 +55,7 @@ header nav {
     display: table-cell;
     text-align: right;
     vertical-align: middle;
-    width: 55%;
+    width: 62%;
 }
 
 header nav ul {
@@ -78,6 +78,7 @@ header nav li:first-child {
 header nav li a {
     color: #ffffff;
     text-decoration: none;
+    vertical-align: middle;
 }
 
 header nav li form {
@@ -588,6 +589,11 @@ table tr th.table-cell-right {
     header .header-sitename {
         font-size: 1.25em;
     }
+    
+    header nav {
+        font-size: 0.9em;
+        
+    }
 
     form.search-form input.search-input {
         width: 66.6666%;
@@ -610,11 +616,11 @@ table tr th.table-cell-right {
 
 @media screen and (max-width: 340px) {
     header .header-sitename {
-        width: 50%;
+        width: 45%;
     }
     
     header nav {
-        width: 50%;
+        width: 55%;
     }
 }
 

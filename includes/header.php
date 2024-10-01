@@ -37,11 +37,11 @@
                <ul>
                     <?php
                       echo '<li><a href="' . htmlspecialchars(APP_ROOT) . 'explore.php">Explore</a></li>';
+                      echo '<li><a href="' . htmlspecialchars(APP_ROOT) . 'submit.php">Submit</a></li>';
                       if ($user == -1) {
                         echo '<li><a href="' . htmlspecialchars(APP_ROOT) . 'login.php?redirect=' . htmlspecialchars(urlencode($_SERVER['REQUEST_URI'])) . '">Login</a></li>';
                         echo '<li><a href="' . htmlspecialchars(APP_ROOT) . 'register.php?redirect=' . htmlspecialchars(urlencode($_SERVER['REQUEST_URI'])) . '">Register</a></li>';
                       } else {
-                        echo '<li><a href="' . htmlspecialchars(APP_ROOT) . 'submit.php">Submit</a></li>';
                         echo '<li><a href="' . htmlspecialchars(APP_ROOT) . 'user.php?id=' . htmlspecialchars(urlencode($user)) . '">Profile</a></li>';
                         echo '<li><form action="' . htmlspecialchars(APP_ROOT) . 'logout.php?redirect=' . htmlspecialchars(urlencode($_SERVER['REQUEST_URI'])) . '" method="post">
                                 <input type="hidden" name="csrf" value="' . htmlspecialchars($csrf_token) . '">

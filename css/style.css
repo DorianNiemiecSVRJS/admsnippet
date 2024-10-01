@@ -587,6 +587,10 @@ table tr th.table-cell-right {
 }
 
 @media screen and (max-width: 480px) {
+    header {
+        padding: 5px 0;
+    }
+    
     header .header-sitename {
         font-size: 1.25em;
     }

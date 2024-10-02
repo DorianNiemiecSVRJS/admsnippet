@@ -6,6 +6,7 @@
   $badrequest = false;
   $queryerror = false;
   $entry = null;
+  $snippet = null;
 
   if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
     $badrequest = true;
@@ -19,6 +20,13 @@
       if ($entryresult) {
         $result = mysqli_fetch_assoc($entryresult);
         mysqli_stmt_close($entrystmt);
+        if (strlen($result['snippet']) > 2 && $result['snippet'][0] == "#" && $result['snippet'][1] == "!") {
+          // Use Unix line endings if snippet begins with "#!" characters (which may indicate shebang line).
+          $snippet = str_replace(["\r\n", "\r"], "\n", $result['snippet']);
+        } else {
+          // Use DOS/Windows line endings otherwise.
+          $snippet = str_replace(["\r\n", "\n"], "\r", $result['snippet']);
+        }
       } else {
         mysqli_stmt_close($entrystmt);
         $queryerror = true;
@@ -39,7 +47,7 @@
     http_response_code(404);
     echo "Snippet not found";
   } else {
-    echo $result['snippet'];
+    echo $snippet;
   }
 ?>
 <?php include("includes/finalize.php"); ?>

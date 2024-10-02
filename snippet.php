@@ -118,7 +118,7 @@
   </div>
 </div>
 </div>
-<pre class="entry-contents"><code id="snippet">' . htmlspecialchars($result['snippet']) . '</code></pre>';
+<pre class="entry-contents"><code id="snippet">' . htmlspecialchars(str_replace(["\r\n", "\r"], "\n", $result['snippet'])) . '</code></pre>';
   }
 ?>
   </div>

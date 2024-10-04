@@ -111,17 +111,6 @@ section.hero h1 {
     margin: 0.5em 0;
 }
 
-/* Remove these styles after the launches BEGIN */
-section.hero .hero-launches a {
-    vertical-align: middle;
-    display: inline-block;
-}
-
-section.hero .hero-launches a img {
-    width: 200px;
-}
-/* Remove these styles after the launches END */
-
 form.search-form {
     display: table;
     width: 100%;

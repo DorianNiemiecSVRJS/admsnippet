@@ -50,7 +50,7 @@
         }
         if ($captcha_valid) {
           $hashed_password = password_hash($_POST['pass'], PASSWORD_DEFAULT);
-          $stmt = mysqli_prepare($db, 'SELECT * FROM users WHERE name = ?');
+          $stmt = mysqli_prepare($db, 'SELECT * FROM users WHERE LOWER(name) = LOWER(?);');
           if ($stmt) {
             mysqli_stmt_bind_param($stmt, 's', $_POST['user']);
             mysqli_stmt_execute($stmt);
